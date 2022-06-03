@@ -60,7 +60,7 @@
           </form>
         </div>
         <div class="sln">
-          <a href="#projects" type="button" class="cta"><span>OR REGISTER FOR FREE</span></a>
+          <a href="#registrationform" type="button" class="cta"><span>OR REGISTER FOR FREE</span></a>
         </div>
         <div class="sln">
           <a href="#projects" type="button" class="cta"><span>Start Learning Now</span></a>
@@ -131,7 +131,10 @@
             <p>Based on your information (we will get from the form),
                for front end development learners we have an <b>html</b> class at 
                <b>2:30 AM up to 4: 30 AM(ETHIOPIAN LOCAL TIME)</b> on evry mondy </p>
-          </div>
+              <div class="sln">
+                <a href="#registrationform" type="button" class="cta"><span>OR REGISTER FOR FREE</span></a>
+              </div>
+              </div>
           <div class="project-img">
             <img src="./img/hero-bg.png" alt="img">
           </div>
@@ -146,6 +149,9 @@
             <p>Based on your information (we will get from the form),
             for front end development learners we have A <b>CSS</b> class at
             <b>2:30 AM up to 4: 30 AM(ETHIOPIAN LOCAL TIME)</b> on evry Tuesday</p>
+          <div class="sln">
+            <a href="#registrationform" type="button" class="cta"><span>REGISTER to start class</span></a>
+          </div>
           </div>
         </div>
         <div class="project-item" id="wensday">
@@ -155,6 +161,9 @@
             <p>Based on your information (we will get from the form),
             for back end development learners we have a <b>php</b> class at
             <b>2:30 AM up to 4: 30 AM(ETHIOPIAN LOCAL TIME)</b> on evry Wensday</p>
+            <div class="sln">
+              <a href="#registrationform" type="button" class="cta"><span>REGISTER to start class</span></a>
+            </div>
           </div>
           <div class="project-img">
             <img src="./img/hero-bg.png" alt="img">
@@ -170,6 +179,9 @@
             <p>Based on your information (we will get from the form),
             for front end development learners we have a <b>Javascript</b> class at
             <b>2:30 AM up to 4: 30 AM(ETHIOPIAN LOCAL TIME)</b> on evry Thuraday</p>
+            <div class="sln">
+              <a href="#registrationform" type="button" class="cta"><span>REGISTER to start class</span></a>
+            </div>
           </div>
         </div>
         <div class="project-item" id="friday">
@@ -179,6 +191,9 @@
             <p>Based on your information (we will get from the form),
             for back end development learners we have a <b>php</b> class at
             <b>2:30 AM up to 4: 30 AM(ETHIOPIAN LOCAL TIME)</b> on evry Friday</p>
+            <div class="sln">
+              <a href="#registrationform" type="button" class="cta"><span>REGISTER to start class</span></a>
+            </div>
           </div>
           <div class="project-img">
             <img src="./img/hero-bg.png" alt="img">
@@ -188,7 +203,72 @@
     </div>
   </section>
   <!-- End class Section -->
-
+  <form method="post" action="https://www.w3schools.com/">
+    <div id="registrationform" class="formsignup">
+      <div class="fname">
+        <label for="fname"> first name</label>
+        <input type="text" required placeholder="enter first name" id="uname">
+      </div>
+      <div class="lname">
+        <label for="lname"> first name</label>
+        <input type="text" required placeholder="enter last name" id="uname">
+      </div>
+      <div class="user">
+        <label for="user"> first name</label>
+        <input type="text" required placeholder="enter user name" id="uname">
+      </div>
+      <div class="password">
+        <label for="password">enter password:</label>
+        <input type="password" required placeholder="enter user password" id="password">
+      </div>
+      <div class="choose">
+      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+      <label for="vehicle1"> i need to learn html</label><br>
+      <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+      <label for="vehicle2">i need to learn css</label><br>
+      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+      <label for="vehicle3">i need to learn Javascript</label><br><br>
+      </div>
+      <div class="radiob">
+        <input type="radio" id="male" name="sex" value="male">
+        <label for="html">male</label><br>
+        <input type="radio" id="female" name="sex" value="female">
+        <label for="css">female</label><br>
+      </div>
+      <div class="level">
+        <h3>choose your level </h3>
+        <select>
+          <option value="0">i am just starter</option>
+          <option value="1">i have a little knowledge</option>
+          <option value="2">i am good html but css</option>
+          <option value="3">i am good at css , html</option>
+          <option value="4">i am good at css and Javascript</option>
+          <option value="5">i am good at front end but back end development</option>
+          <option value="6">i am good at back end but front end development</option>
+        </select>
+      </div>
+      <div class="country">
+      <label for="country">Choose your browser from the list:</label>
+      <input list="countries" name="country" id="country">
+       <datalist id="countries">
+       <option value="south africa">
+       <option value="america">
+       <option value="china">
+       <option value="canada">
+      <option value="india">
+      <option value="ETHIOPIAN">
+      <option value="france">
+      <option value="canada">
+       <option value="germany">
+      </datalist>
+      </div>
+      <div class="submit reset">
+        <input type="submit" value="signup">
+        <input type="reset" value="reset">
+      </div>
+   </div>
+  </form>
+  
   <!-- About Section -->
   <section id="about">
     <div class="about container">

@@ -739,6 +739,17 @@ div.memberslist h1{
 	border-radius: 6px;
 	height:39px;
 }
-section div.register{
-	border:2px solid green;
+.formsignup{
+	border: 5px solid gray;
+	border-radius: 10px;
+	width: 50%;
+}
+.fname,.lname,.radiob,.choose,.country,.level{
+	margin:10px;
+}
+.formsignup input[type="submit"],.formsignup input[type="reset"]{
+	margin: 10px;
+	width:23%;
+	font-size: larger;
+	font-weight:bolder;
 }
